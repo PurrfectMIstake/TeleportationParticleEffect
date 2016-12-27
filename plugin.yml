@@ -1,0 +1,6 @@
+name: TeleportationParticleEffect
+main: me.nikk.TPE.TPeffect
+version: 1.6
+commands:
+    tpe:
+        description: Reloads the plugin.

@@ -1,0 +1,37 @@
+#======================================================================================================================================================
+#Plugin created by james8470, redesigned & improved upon by ZiggsUltedParis
+#
+#Spigot Links
+#james8470: https://www.spigotmc.org/members/james8470.190609/
+#ZiggsUltedParis: https://www.spigotmc.org/members/ziggsultedparis.120249/
+#
+#======================================================================================================================================================
+# All rights go to the creator of this plugin, I have just improved upon it a lot. - http://tiny.cc/TeleportationEffect
+
+#Make sure you give players the permission: TPE.effect
+#Don't forget! The command /tpe will reload the config - TPE.reload
+
+#Configurable messages (With colors!)
+Enable-Teleport-Message: true
+Enable-Teleport-Sound: true
+Teleport-Message: "&8» &eTeleported!"
+Reload-Message: "&8» &eTeleport Config Reloaded!"
+No-Permission: "&8» &cNo Permission"
+
+# Edit the sound set to the player. You can set the volume and pitch to be decimal numbers.
+TeleportSoundVolume: 1
+TeleportSoundPitch: 1
+Teleport-Sound: BAT_LOOP
+#Sound file names here: https://github.com/Attano/Spigot-1.8/blob/master/org/bukkit/Sound.java
+
+# Raidus (in blocks) from where the teleported player's particle effect can be seen. Lower numbers reduce lag slightly.
+TeleportParticleVisibleRange: 40
+
+# How long the effect should be displayed after teleporting. (seconds)
+TeleportEffectDisplayTime: 1.5
+
+#If you do not want players to recieve these particles, dont give them the permission: TPE.effect
+#If you do not put a valid particle from the list, errors will show up in console.
+#Choose which particles you wish to be shown when a player teleports! A list can be seen in the link below!
+# http://pastebin.com/QS4wNkh6
+Teleport-Particle: SPELL_INSTANT
